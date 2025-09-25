@@ -37,15 +37,23 @@ public class ChavviCalcExampleApp {
   }
 
   // prints the menu
-  public static void printMenu() {
-    printMenuLine();
-    System.out.println("ChavviCalc");
-    printMenuLine();
-
-    printMenuCommand('q', "Quit");
-
-    printMenuLine();
-  }
+   private static void printMenu(float a, float b) {
+        System.out.println(LINE);
+        System.out.println("Chavvi Calc");
+        System.out.println(LINE);
+        System.out.printf("A = %.3f\tB = %.3f%n", (double) a, (double) b);
+        System.out.println(LINE);
+        System.out.println("a   Enter a value for A");
+        System.out.println("b   Enter a value for B");
+        System.out.println("+   Add (A = A + B)");
+        System.out.println("-   Subtract (A = A - B)");
+        System.out.println("*   Multiply (A = A * B)");
+        System.out.println("/   Divide (A = A / B)");
+        System.out.println("=   Show current A and B");
+        System.out.println("c   Clear (A = 0, B = 0)");
+        System.out.println("q   Quit");
+        System.out.println(LINE);
+    }
 
   // get first character from input
   private static Character menuGetCommand(Scanner scan) {
