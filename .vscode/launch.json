@@ -5,6 +5,13 @@
       "type": "java",
       "name": "App",
       "request": "launch",
+      "mainClass": "com.chavvicalc.App",
+      "projectName": "chaavi-calc"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
       "mainClass": "chavviCalc2.App",
       "projectName": ""
     },
