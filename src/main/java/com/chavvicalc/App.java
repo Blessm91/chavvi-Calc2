@@ -1,4 +1,4 @@
-package chavviCalc2;
+package com.chavvicalc;
 
 import java.util.Locale;
 import java.util.Scanner;
