@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ChavviCalcExampleApp",
+      "request": "launch",
+      "mainClass": "com.chavviCalcExample.ChavviCalcExampleApp",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "Run Chaavi Calc",
       "request": "launch",
       "mainClass": "com.fredo.chavvicalc.App",
